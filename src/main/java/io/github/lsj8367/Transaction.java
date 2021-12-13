@@ -24,4 +24,9 @@ public class Transaction {
         return value;
     }
 
+    @Override
+    public String toString() {
+        return "{" + trader + ", " + "year: " + year + ", " + "value: " + value + "}";
+    }
+
 }
