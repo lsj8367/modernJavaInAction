@@ -1,8 +1,11 @@
-package io.github.lsj8367;
+package io.github.lsj8367.stream;
 
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
 import static org.assertj.core.api.Assertions.assertThat;
+
+import io.github.lsj8367.stream.Trader;
+import io.github.lsj8367.stream.Transaction;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;

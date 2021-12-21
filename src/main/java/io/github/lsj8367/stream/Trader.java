@@ -1,4 +1,4 @@
-package io.github.lsj8367;
+package io.github.lsj8367.stream;
 
 public class Trader {
     private final String name;
